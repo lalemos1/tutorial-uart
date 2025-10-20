@@ -6,6 +6,8 @@
 #include "STM32L432KC_GPIO.h"
 #include "STM32L432KC_RCC.h"
 
+// Prof. Spencer said we're welcome to use as much HAL as we can stomach the implementation
+
 USART_TypeDef * id2Port(int USART_ID) {
     USART_TypeDef * USART;
     switch(USART_ID){
