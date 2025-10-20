@@ -3,7 +3,7 @@
 // jbrake@hmc.edu
 // 10/10/24
 
-#include "STM32L432KC.h"
+#include "C:\Users\lucas\Documents\GitHub\E155-uP-labs\tutorial-uart\lib\STM32L432KC.h"
 #include <stm32l432xx.h>
 #define USART_ID USART2_ID
 #define TIM TIM15
